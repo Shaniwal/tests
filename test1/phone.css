@@ -1,0 +1,15 @@
+#title h1{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+#title p{
+    position: absolute;
+    top:40px;
+    font-size: 20px;
+    padding:10px 10px;
+    font-family: 'Merriweather', serif;
+}
+#img-caption{
+    text-align: center;
+}

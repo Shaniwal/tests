@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+ <main>
+     <header class="head">
+         <h1 id="title">Help Us Know You Better!</h1>
+         <p id="description">We would cherish your suggestions to improve our services</p>
+     </header>
+     <section class="survey">
+         <form action="" id="survey-form">
+             <label for="first" id="name-label">Name:
+             <input type="text" id="name" name="first"  placeholder="Enter your name"></label>
+             <label for="second" id="email-label">Email Id:
+             <input type="email" id="email" name="second" placeholder="Enter your email"></label>
+             <label for="third" id="number-label">Contact Number:
+             <input type="number" id="number" min="1000000000" max="9999999999" name="third" placeholder="Enter your Contact number"></label>
+             <label for="options" id="dd" >Which area do you deal with
+             <select name="options" id="dropdown">
+                 <option value="Front">Front-End</option>
+                 <option value="Back">Backend-End</option>
+                 <option value="Network">Networking</option>
+                 <option value="security">Security</option></label></select>
+                 <fieldset>
+            <legend>Field where you want our services in future</legend>
+            <label for="Web-Development"><input type="checkbox" id="Web Development" value="Web Development" name="fourth" checked >Web-Development</label>
+            <label for="Cloud-Computing"><input type="checkbox" id="Cloud-Computing" value="Cloud-Computing" name="fourth" >Cloud-Computing</label>
+            <label for="Network-Security"><input type="checkbox" id="Network-Security" value="Network-Security"   name="fourth"  >Network-Security</label>
+            <label for="Artificial-Intelligence"><input type="checkbox" id="Artificial-Intelligence" value="Artificial-Intelligence"name="fourth"  >Artificial-Intelligence</label>
+              </fieldset>
+                 <fieldset>
+            <legend>Field where you want to see us do better</legend>
+            <label for="Web-Development"><input type="radio" id="Web Development" value="Development" name="fifth" checked >Web-Development</label>
+            <label for="Cloud-Computing"><input type="radio" id="Cloud-Computing" value="cloud" name="fifth" >Cloud-Computing</label>
+            <label for="Network-Security"><input type="radio" id="Network-Security" value="security" name="fifth"  >Network-Security</label>
+            <label for="Artificial-Intelligence"><input type="radio" id="Artificial-Intelligence" value="ai"name="fifth"  >Artificial-Intelligence</label>
+              </fieldset>
+             <textarea name="suggestion" id="comment" cols="30" rows="10" placeholder="We value your suggestions">Comments and Suggestions</textarea>
+             <button id="submit" type="submit">Submit</button>
+             
+             
+         </form>
+     </section>
+ </main>   
+</body>
+</html>
